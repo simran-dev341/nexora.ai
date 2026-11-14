@@ -4,9 +4,7 @@ A responsive, front-end-only SaaS landing page concept for **Nexora AI**, a fict
 
 ## Live demo
 
-Add your deployed URL here after publishing:
-
-`https://your-project-url.example`
+[Visit Nexora AI](https://simran-dev341.github.io/nexora.ai/)
 
 ## Features
 
@@ -92,10 +90,13 @@ nexora-ai/
 
 ## Screenshots
 
-Add screenshots captured from the running website:
+## Screenshots
 
-- `screenshots/desktop.png`
-- `screenshots/mobile.png`
+### Desktop view
+![Nexora AI Desktop](screenshots/desktop.png)
+
+### Mobile view
+![Nexora AI Mobile](screenshots/mobile.png)
 
 ## Design explanation
 
