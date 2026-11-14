@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080b16">
+  <meta name="description" content="Nexora AI turns complex business data into clear insights, helping teams understand performance and make confident decisions.">
+  <meta property="og:title" content="Nexora AI — Business intelligence, reimagined">
+  <meta property="og:description" content="Turn data into decisions that matter with Nexora AI.">
+  <meta property="og:type" content="website">
+  <title>Nexora AI — Business intelligence, reimagined</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header" id="top">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a class="brand" href="#top" aria-label="Nexora AI home">NEXORA<span>AI.</span></a>
+      <button class="menu-toggle" id="menuToggle" type="button" aria-label="Open navigation menu" aria-controls="navLinks" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#features">Platform</a></li>
+        <li><a href="#how-it-works">How it works</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+      <a class="button button-small button-outline nav-action" href="#contact">Request a demo <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero section-shell" id="home">
+      <div class="hero-glow hero-glow-one" aria-hidden="true"></div>
+      <div class="hero-glow hero-glow-two" aria-hidden="true"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span class="eyebrow-dot"></span> BUSINESS INTELLIGENCE, REIMAGINED</p>
+          <h1>See the signal.<br><span>Move with clarity.</span></h1>
+          <p class="hero-description">Nexora brings your business data into focus. Understand performance, uncover meaningful patterns, and make your next move with confidence.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#contact">Explore Nexora <span aria-hidden="true">↗</span></a>
+            <a class="text-link" href="#features">Discover the platform <span aria-hidden="true">→</span></a>
+          </div>
+          <div class="hero-proof">
+            <div class="proof-avatars" aria-hidden="true"><span>J</span><span>M</span><span>A</span><span>+</span></div>
+            <p><strong>Clarity for every decision.</strong><br><span>One view of what moves your business.</span></p>
+          </div>
+        </div>
+
+        <div class="dashboard-wrap reveal reveal-delay" aria-label="Illustrative Nexora analytics dashboard preview">
+          <div class="dashboard">
+            <div class="dash-topbar">
+              <div class="dash-brand"><span class="dash-mark">N</span><span>Nexora <small>workspace</small></span></div>
+              <div class="dash-top-actions"><span class="dash-live"><i></i> Demo data</span><span class="avatar">SK</span></div>
+            </div>
+            <div class="dash-body">
+              <aside class="dash-sidebar" aria-hidden="true">
+                <span class="side-icon active">▦</span><span class="side-icon">⌁</span><span class="side-icon">◫</span><span class="side-icon">⚙</span>
+              </aside>
+              <div class="dash-main">
+                <div class="dash-heading">
+                  <div><p class="dash-kicker">MONDAY, NOVEMBER 16</p><h2>Good morning, team</h2><p class="dash-subtitle">Here’s your business at a glance.</p></div>
+                  <span class="dash-period">Last 30 days⌄</span>
+                </div>
+                <div class="metric-grid">
+                  <article class="metric"><div class="metric-label">Total revenue <span>↗</span></div><strong>₹8.42L</strong><small class="positive">↑ 12.8% <em>vs. previous period</em></small></article>
+                  <article class="metric"><div class="metric-label">Orders <span>⌁</span></div><strong>1,248</strong><small class="positive">↑ 8.4% <em>vs. previous period</em></small></article>
+                  <article class="metric"><div class="metric-label">Customers <span>◎</span></div><strong>864</strong><small class="positive">↑ 15.2% <em>vs. previous period</em></small></article>
+                </div>
+                <div class="dash-lower">
+                  <section class="chart-panel">
+                    <div class="panel-heading"><div><h3>Revenue overview</h3><p>Revenue performance over time</p></div><div class="chart-tabs" role="group" aria-label="Chart period"><button class="chart-tab" data-period="7" type="button">7D</button><button class="chart-tab is-active" data-period="30" type="button">30D</button><button class="chart-tab" data-period="90" type="button">90D</button></div></div>
+                    <div class="chart-summary"><strong id="chartValue">₹8,42,500</strong><span class="positive">↑ 12.8%</span></div>
+                    <svg class="revenue-chart" viewBox="0 0 520 170" role="img" aria-label="Illustrative revenue trend chart">
+                      <defs><linearGradient id="areaFill" x1="0" x2="0" y1="0" y2="1"><stop offset="0%" stop-color="#8b6cff" stop-opacity=".34"/><stop offset="100%" stop-color="#8b6cff" stop-opacity="0"/></linearGradient></defs>
+                      <g class="chart-grid"><path d="M0 25H520M0 70H520M0 115H520M0 160H520"/></g>
+                      <path id="chartArea" class="chart-area" d="M0 128 C35 118 45 105 78 112 S125 90 155 98 S205 63 235 79 S285 50 315 67 S365 34 395 54 S445 24 475 37 S500 22 520 18 L520 170 L0 170Z"/>
+                      <path id="chartLine" class="chart-line" d="M0 128 C35 118 45 105 78 112 S125 90 155 98 S205 63 235 79 S285 50 315 67 S365 34 395 54 S445 24 475 37 S500 22 520 18"/>
+                      <circle cx="475" cy="37" r="5" class="chart-point"/>
+                    </svg>
+                    <div class="chart-labels"><span>Nov 01</span><span>Nov 08</span><span>Nov 15</span><span>Nov 22</span><span>Nov 30</span></div>
+                  </section>
+                  <section class="insight-panel"><div class="insight-icon">✦</div><p class="insight-label">NEXORA INSIGHT</p><h3>Momentum is building</h3><p class="insight-copy">Revenue is trending upward. Your strongest sales days are mid-week.</p><span class="insight-tag">Illustrative AI insight</span></section>
+                </div>
+                <p class="demo-disclaimer">Illustrative interface · Sample data only</p>
+              </div>
+            </div>
+          </div>
+          <div class="floating-note"><span class="floating-note-icon">✦</span><span><strong>One clear picture</strong><small>From data to direction</small></span></div>
+        </div>
+      </div>
+      <div class="hero-bottom container"><span>BUILT FOR FORWARD-THINKING TEAMS</span><div><span>RETAIL</span><span>SAAS</span><span>COMMERCE</span><span>GROWING BUSINESSES</span></div></div>
+    </section>
+
+    <section class="section section-light" id="features">
+      <div class="container">
+        <div class="section-heading reveal"><p class="eyebrow">THE NEXORA ADVANTAGE</p><h2>From scattered numbers<br><span>to a sharper perspective.</span></h2><p>Bring the most important parts of your business into one thoughtful, easy-to-understand view.</p></div>
+        <div class="feature-grid">
+          <article class="feature-card reveal"><div class="feature-icon purple">✦</div><p class="card-index">01 / UNDERSTAND</p><h3>AI-powered insights</h3><p>Turn patterns in your business data into plain-language observations that help you ask better questions.</p><a href="#how-it-works" class="card-link">See how it works <span>→</span></a></article>
+          <article class="feature-card reveal reveal-delay"><div class="feature-icon cyan">⌁</div><p class="card-index">02 / MONITOR</p><h3>Live performance view</h3><p>Bring key metrics together in a clear dashboard so your team can see what is changing at a glance.</p><a href="#how-it-works" class="card-link">See how it works <span>→</span></a></article>
+          <article class="feature-card reveal reveal-delay-2"><div class="feature-icon peach">↗</div><p class="card-index">03 / MOVE FORWARD</p><h3>Confident decisions</h3><p>Explore trends and opportunities with context, then turn what you learn into your next action.</p><a href="#how-it-works" class="card-link">See how it works <span>→</span></a></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section process-section" id="how-it-works">
+      <div class="container process-grid">
+        <div class="process-copy reveal"><p class="eyebrow">A CLEARER WAY TO WORK</p><h2>Insight should lead<br>to <span>action.</span></h2><p class="section-intro">Nexora is designed to make business intelligence feel less complicated. Start with the information you have and build a clearer picture one step at a time.</p><a class="button button-primary" href="#contact">See Nexora in action <span>↗</span></a></div>
+        <div class="process-steps">
+          <article class="process-step reveal"><span class="step-number">01</span><div><h3>Bring your data together</h3><p>Start with your key business information and bring important metrics into one view.</p></div><span class="step-symbol">⌘</span></article>
+          <article class="process-step reveal reveal-delay"><span class="step-number">02</span><div><h3>Find the useful signals</h3><p>Explore trends, compare performance and surface patterns worth paying attention to.</p></div><span class="step-symbol">⌁</span></article>
+          <article class="process-step reveal reveal-delay-2"><span class="step-number">03</span><div><h3>Choose your next move</h3><p>Use clear context to discuss priorities and make more informed decisions.</p></div><span class="step-symbol">↗</span></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-light" id="pricing">
+      <div class="container">
+        <div class="section-heading reveal"><p class="eyebrow">STRAIGHTFORWARD PLANS</p><h2>Room to grow.<br><span>Clarity at every stage.</span></h2><p>Choose a starting point for your team's business intelligence journey.</p></div>
+        <div class="pricing-grid">
+          <article class="price-card reveal"><p class="plan-label">ESSENTIALS</p><h3>Starter</h3><p class="plan-description">For individuals and small teams getting started.</p><div class="price">Free <span>forever</span></div><ul><li>Core performance overview</li><li>Essential business metrics</li><li>Basic insight summaries</li><li>One workspace</li></ul><a class="button button-light-outline" href="#contact" data-plan="Starter">Start with Starter <span>→</span></a></article>
+          <article class="price-card price-featured reveal reveal-delay"><span class="popular-label">MOST POPULAR</span><p class="plan-label">FOR GROWING TEAMS</p><h3>Professional</h3><p class="plan-description">For teams ready to explore deeper business insights.</p><div class="price">₹999 <span>/ month</span></div><ul><li>Everything in Starter</li><li>Advanced analytics views</li><li>AI-assisted insight summaries</li><li>Expanded reporting tools</li></ul><a class="button button-primary" href="#contact" data-plan="Professional">Choose Professional <span>↗</span></a></article>
+        </div>
+        <p class="pricing-note">Concept pricing for this demonstration project. No purchase or payment is processed.</p>
+      </div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="container about-grid">
+        <div class="about-art reveal" aria-hidden="true"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="about-core">N<span>AI</span></div><span class="orbit-label label-one">DATA</span><span class="orbit-label label-two">INSIGHT</span><span class="orbit-label label-three">ACTION</span></div>
+        <div class="about-copy reveal reveal-delay"><p class="eyebrow">WHY NEXORA EXISTS</p><h2>Better questions.<br><span>Better business.</span></h2><p>Good decisions start with understanding. Nexora is a concept for a more approachable business intelligence experience—one that helps teams move beyond dashboards full of numbers and focus on what those numbers could mean.</p><div class="about-stat-row"><div><strong>One</strong><span>connected view</span></div><div><strong>Clear</strong><span>business context</span></div><div><strong>Next</strong><span>steps, made visible</span></div></div></div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-copy reveal"><p class="eyebrow">LET'S START A CONVERSATION</p><h2>Make your next move<br><span>with more clarity.</span></h2><p>Tell us a little about what your team is working on. This demo form will show an on-page confirmation; it does not send data to a server.</p><div class="contact-detail"><span class="contact-detail-icon">✦</span><span><strong>Designed for clarity</strong><small>A simple concept for smarter business decisions.</small></span></div></div>
+        <form class="contact-form reveal reveal-delay" id="contactForm">
+          <div class="form-heading"><h3>Request a demo</h3><p>All fields are required.</p></div>
+          <label for="name">Your name</label><input id="name" name="name" type="text" placeholder="e.g. Alex Morgan" autocomplete="name" minlength="2" maxlength="70" required>
+          <label for="email">Work email</label><input id="email" name="email" type="email" placeholder="alex@company.com" autocomplete="email" maxlength="120" required>
+          <label for="plan">What are you interested in?</label><select id="plan" name="plan"><option value="Not sure yet">Not sure yet</option><option value="Starter">Starter</option><option value="Professional">Professional</option></select>
+          <label for="message">What would you like to explore?</label><textarea id="message" name="message" rows="3" placeholder="Tell us about your goals..." minlength="5" maxlength="500" required></textarea>
+          <button class="button button-primary form-submit" type="submit">Send demo request <span aria-hidden="true">↗</span></button>
+          <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+          <p class="form-privacy">Demo only · Your information stays in this browser session.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-top"><a class="brand" href="#top">NEXORA<span>AI.</span></a><p>Intelligence that moves business forward.</p><a class="back-top" href="#top">Back to top ↑</a></div>
+    <div class="container footer-bottom"><span>© <span id="year"></span> Nexora AI. Concept project.</span><span>Built with HTML, CSS & JavaScript.</span></div>
+  </footer>
+</body>
+</html>
